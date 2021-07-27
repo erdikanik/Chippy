@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B0C4E826A5E5EF00E97D55 /* ChippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4E726A5E5EF00E97D55 /* ChippyApp.swift */; };
+		87B0C4EA26A5E5EF00E97D55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4E926A5E5EF00E97D55 /* ContentView.swift */; };
+		87B0C4EC26A5E5F000E97D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B0C4EB26A5E5F000E97D55 /* Assets.xcassets */; };
+		87B0C4EF26A5E5F000E97D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B0C4EE26A5E5F000E97D55 /* Preview Assets.xcassets */; };
+		87B0C4F826A5E6BF00E97D55 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4F726A5E6BF00E97D55 /* ChipView.swift */; };
+		87B0C4FB26A5EA5D00E97D55 /* SelectableChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87B0C4E426A5E5EF00E97D55 /* Chippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B0C4E726A5E5EF00E97D55 /* ChippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChippyApp.swift; sourceTree = "<group>"; };
+		87B0C4E926A5E5EF00E97D55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87B0C4EB26A5E5F000E97D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87B0C4EE26A5E5F000E97D55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87B0C4F026A5E5F000E97D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B0C4F726A5E6BF00E97D55 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableChip.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B0C4E126A5E5EF00E97D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B0C4DB26A5E5EF00E97D55 = {
+			isa = PBXGroup;
+			children = (
+				87B0C4E626A5E5EF00E97D55 /* Chippy */,
+				87B0C4E526A5E5EF00E97D55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87B0C4E526A5E5EF00E97D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B0C4E426A5E5EF00E97D55 /* Chippy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B0C4E626A5E5EF00E97D55 /* Chippy */ = {
+			isa = PBXGroup;
+			children = (
+				87B0C4FF26A8610900E97D55 /* ChipView */,
+				87B0C4E726A5E5EF00E97D55 /* ChippyApp.swift */,
+				87B0C4E926A5E5EF00E97D55 /* ContentView.swift */,
+				87B0C4EB26A5E5F000E97D55 /* Assets.xcassets */,
+				87B0C4F026A5E5F000E97D55 /* Info.plist */,
+				87B0C4ED26A5E5F000E97D55 /* Preview Content */,
+			);
+			path = Chippy;
+			sourceTree = "<group>";
+		};
+		87B0C4ED26A5E5F000E97D55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87B0C4EE26A5E5F000E97D55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87B0C4FF26A8610900E97D55 /* ChipView */ = {
+			isa = PBXGroup;
+			children = (
+				87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */,
+				87B0C4F726A5E6BF00E97D55 /* ChipView.swift */,
+			);
+			path = ChipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B0C4E326A5E5EF00E97D55 /* Chippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B0C4F326A5E5F000E97D55 /* Build configuration list for PBXNativeTarget "Chippy" */;
+			buildPhases = (
+				87B0C4E026A5E5EF00E97D55 /* Sources */,
+				87B0C4E126A5E5EF00E97D55 /* Frameworks */,
+				87B0C4E226A5E5EF00E97D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chippy;
+			productName = Chippy;
+			productReference = 87B0C4E426A5E5EF00E97D55 /* Chippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B0C4DC26A5E5EF00E97D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					87B0C4E326A5E5EF00E97D55 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 87B0C4DF26A5E5EF00E97D55 /* Build configuration list for PBXProject "Chippy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87B0C4DB26A5E5EF00E97D55;
+			productRefGroup = 87B0C4E526A5E5EF00E97D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B0C4E326A5E5EF00E97D55 /* Chippy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B0C4E226A5E5EF00E97D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B0C4EF26A5E5F000E97D55 /* Preview Assets.xcassets in Resources */,
+				87B0C4EC26A5E5F000E97D55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B0C4E026A5E5EF00E97D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B0C4EA26A5E5EF00E97D55 /* ContentView.swift in Sources */,
+				87B0C4E826A5E5EF00E97D55 /* ChippyApp.swift in Sources */,
+				87B0C4F826A5E6BF00E97D55 /* ChipView.swift in Sources */,
+				87B0C4FB26A5EA5D00E97D55 /* SelectableChip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87B0C4F126A5E5F000E97D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87B0C4F226A5E5F000E97D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B0C4F426A5E5F000E97D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Chippy/Preview Content\"";
+				DEVELOPMENT_TEAM = PD29HUEAAC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Chippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdikanik.Chippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87B0C4F526A5E5F000E97D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Chippy/Preview Content\"";
+				DEVELOPMENT_TEAM = PD29HUEAAC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Chippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdikanik.Chippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B0C4DF26A5E5EF00E97D55 /* Build configuration list for PBXProject "Chippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B0C4F126A5E5F000E97D55 /* Debug */,
+				87B0C4F226A5E5F000E97D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B0C4F326A5E5F000E97D55 /* Build configuration list for PBXNativeTarget "Chippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B0C4F426A5E5F000E97D55 /* Debug */,
+				87B0C4F526A5E5F000E97D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B0C4DC26A5E5EF00E97D55 /* Project object */;
+}

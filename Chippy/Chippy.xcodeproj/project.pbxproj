@@ -13,6 +13,7 @@
 		87B0C4EF26A5E5F000E97D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B0C4EE26A5E5F000E97D55 /* Preview Assets.xcassets */; };
 		87B0C4F826A5E6BF00E97D55 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4F726A5E6BF00E97D55 /* ChipView.swift */; };
 		87B0C4FB26A5EA5D00E97D55 /* SelectableChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */; };
+		87D07A6E26DBB61E0011670F /* ChippyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07A6D26DBB61E0011670F /* ChippyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87B0C4F026A5E5F000E97D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87B0C4F726A5E6BF00E97D55 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
 		87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableChip.swift; sourceTree = "<group>"; };
+		87D07A6D26DBB61E0011670F /* ChippyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChippyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8742356426B1597D00632020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87D07A6D26DBB61E0011670F /* ChippyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87B0C4DB26A5E5EF00E97D55 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		87B0C4FF26A8610900E97D55 /* ChipView */ = {
 			isa = PBXGroup;
 			children = (
+				8742356426B1597D00632020 /* Model */,
 				87B0C4FA26A5EA5D00E97D55 /* SelectableChip.swift */,
 				87B0C4F726A5E6BF00E97D55 /* ChipView.swift */,
 			);
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87B0C4EA26A5E5EF00E97D55 /* ContentView.swift in Sources */,
+				87D07A6E26DBB61E0011670F /* ChippyModel.swift in Sources */,
 				87B0C4E826A5E5EF00E97D55 /* ChippyApp.swift in Sources */,
 				87B0C4F826A5E6BF00E97D55 /* ChipView.swift in Sources */,
 				87B0C4FB26A5EA5D00E97D55 /* SelectableChip.swift in Sources */,

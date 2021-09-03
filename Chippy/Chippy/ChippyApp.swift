@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ChippyApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            SelectableChip()
+            ChipView()
         }
     }
 }
